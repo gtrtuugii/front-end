@@ -22,7 +22,9 @@ This is a web application built using React that leverages the power of the News
 ## Installation
 
 To get started, follow these steps:
-1. <a href="[https://www.google.com/](https://newsapi.org/)" target="_blank">Obtain a News API Key</a>
+1. <a href="https://newsapi.org/" target="_blank">Obtain a News API Key</a>
+
+
 
 2. Clone the repository:
 
