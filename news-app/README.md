@@ -7,7 +7,7 @@ This is a simple React application that allows you to explore the latest news ar
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
-- [Example Images](#exampleimages)
+- [Example Images](#example-images)
 
 ## About
 
