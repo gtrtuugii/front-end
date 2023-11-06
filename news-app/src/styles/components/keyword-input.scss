@@ -1,0 +1,40 @@
+// _keyword-input.scss
+
+.keyword-input {
+    display: flex;
+    align-items: center; /* Vertically center align child elements */
+    justify-content: space-between; /* Add space between child elements */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  
+    .search-icon {
+      font-size: 20px;
+      color: #666;
+      margin: 0 10px; /* Add margin to create space between icon and input */
+    }
+  
+    input {
+      flex: 1; /* Allow input to expand and take available space */
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      outline: none; /* Remove input outline */
+    }
+  
+    button {
+      background-color: #133e6c;
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  

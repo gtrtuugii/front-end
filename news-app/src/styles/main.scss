@@ -1,0 +1,21 @@
+// main.scss
+
+/* Import global styles, libraries, and resets if needed */
+// @import 'reset';
+// @import 'variables';
+
+/* Import layout-related styles */
+// @import 'layout';
+@import 'app-styles';  
+/* Import component-specific styles */
+// @import 'components';
+@import 'components/article-list';
+@import 'components/keyword-input'; 
+@import 'components/modal'; 
+@import 'components/search_button'; 
+@import 'components/trending-articles.scss'; 
+
+/* Import Font Awesome CSS */
+@import '~font-awesome/css/font-awesome.css';
+/* Import utility classes and helper functions */
+// @import 'helpers';
