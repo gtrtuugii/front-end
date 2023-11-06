@@ -22,8 +22,9 @@ This is a web application built using React that leverages the power of the News
 ## Installation
 
 To get started, follow these steps:
+1. <a href="[https://www.google.com/](https://newsapi.org/)" target="_blank">Obtain a News API Key</a>
 
-1. Clone the repository:
+2. Clone the repository:
 
    ```bash
    git clone https://github.com/gtrtuugii/front-end/tree/main/news-app.git
@@ -37,10 +38,21 @@ To get started, follow these steps:
   ```npm
   npm install
   ```
+
+3. Make sure to replace line 19 in App.js with your actual API Key
+   ```javascript
+         const apiKey = 'Enter API Key';
+   ```
+   And in line 9 in src/components/TrendingArticles.jsx:
+   ```javascript
+         const apiKey = 'EnterApiKey';
+   ```
+
 # Start the development server
   ```npm
   npm start
   ```
+
 
 ## Example Images
 ![Main page](https://raw.githubusercontent.com/gtrtuugii/front-end/main/news-app/src/assests/img1.png)
