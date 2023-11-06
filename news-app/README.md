@@ -2,13 +2,6 @@
 
 This is a simple React application that allows you to explore the latest news articles and stay updated with the latest trends.
 
-## Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Example Images](#example-images)
-
 ## About
 
 This is a web application built using React that leverages the power of the News API to provide users with the latest news articles. It's a great way to catch up on current events and stay informed.
@@ -17,7 +10,6 @@ This is a web application built using React that leverages the power of the News
 
 - Click on articles to view full details.
 - Search for specific news topics using keywords.
-
 
 ## Installation
 
@@ -42,7 +34,8 @@ To get started, follow these steps:
   ```
 
 # Replace the placeholder code with the actual API key
-    Make sure to replace line 19 in src/App.js:
+   Make sure to replace line 19 in src/App.js:
+    
    ```javascript
          const apiKey = 'Enter API Key';
    ```
