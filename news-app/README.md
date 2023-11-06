@@ -22,11 +22,11 @@ This is a web application built using React that leverages the power of the News
 ## Installation
 
 To get started, follow these steps:
-1. <a href="https://newsapi.org/" target="_blank">Obtain a News API Key</a>
 
+# Get the API key for News API
+ <a href="https://newsapi.org/" target="_blank">Obtain a News API Key</a>
 
-
-2. Clone the repository:
+# Clone the repository:
 
    ```bash
    git clone https://github.com/gtrtuugii/front-end/tree/main/news-app.git
@@ -41,7 +41,8 @@ To get started, follow these steps:
   npm install
   ```
 
-3. Make sure to replace line 19 in App.js with your actual API Key
+# Replace the placeholder code with the actual API key
+    Make sure to replace line 19 in src/App.js:
    ```javascript
          const apiKey = 'Enter API Key';
    ```
